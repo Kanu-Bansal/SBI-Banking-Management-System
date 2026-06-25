@@ -2,68 +2,71 @@
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-111111?style=for-the-badge&logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-111111?style=for-the-badge&logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-111111?style=for-the-badge&logo=plotly&logoColor=white)
-![Git](https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-111111?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 </p>
 
+---
+
 ## 📌 Project Overview
 
-**SBI Banking Management System** is an interactive banking application built using **Python, Streamlit, Pandas, and Plotly**. The project simulates real-world banking operations and provides a user-friendly dashboard for account management and transaction analysis.
+🏦 **SBI Banking Management System** is a full-featured banking simulation web application built using **Python, Streamlit, Pandas, and Plotly**.
+
+It simulates real-world banking operations like:
+- Account creation  
+- Deposits & withdrawals  
+- Fund transfers  
+- Transaction analytics dashboard  
 
 ---
 
 ## ✨ Features
 
 ### 👤 Account Management
-
-* Create New Account
-* Change PIN
-* Balance Enquiry
+- Create New Account  
+- Change PIN  
+- Balance Enquiry  
 
 ### 💰 Banking Operations
-
-* Deposit Money
-* Withdraw Money
-* Fund Transfer
+- Deposit Money  
+- Withdraw Money  
+- Fund Transfer  
 
 ### 📊 Analytics Dashboard
-
-* Total Accounts
-* Total Balance
-* Total Transactions
-* Transaction Distribution Chart
-* Amount by Transaction Type
+- Total Accounts  
+- Total Balance  
+- Total Transactions  
+- Transaction Pie Chart  
+- Transaction Bar Chart  
 
 ### 📜 Transaction Services
-
-* View Transaction History
-* Download Statement in CSV Format
+- View Transaction History  
+- Download Statement (CSV)  
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology   | Purpose            |
-| ------------ | ------------------ |
-| Python       | Backend Logic      |
-| Streamlit    | Web Application    |
-| Pandas       | Data Processing    |
-| Plotly       | Data Visualization |
-| CSV Files    | Data Storage       |
-| Git & GitHub | Version Control    |
+| Technology | Purpose |
+|------------|--------|
+| Python | Backend Logic |
+| Streamlit | Web App |
+| Pandas | Data Handling |
+| Plotly | Visualization |
+| CSV Files | Storage |
+| Git & GitHub | Version Control |
 
 ---
 
 ## 📂 Project Structure
 
-```bash
-SBI-Banking-Management-System
+
+sbi-banking-app/
 │
 ├── app.py
 ├── bank.csv
@@ -71,92 +74,51 @@ SBI-Banking-Management-System
 ├── requirements.txt
 ├── README.md
 └── assets/
-```
+├── dashboard.png
+├── deposit.png
+├── withdraw.png
+├── transfer.png
+└── history.png
+
 
 ---
 
 ## 📸 Screenshots
 
 ### 🏠 Dashboard
+![Dashboard](assets/dashboard.png)
 
-(Add Dashboard Screenshot Here)
+### 💰 Deposit Page
+![Deposit](assets/deposit.png)
 
-### 💰 Deposit Module
+### 💸 Withdraw Page
+![Withdraw](assets/withdraw.png)
 
-(Add Deposit Screenshot Here)
-
-### 💸 Withdrawal Module
-
-(Add Withdrawal Screenshot Here)
-
-### 🔁 Fund Transfer Module
-
-(Add Screenshot Here)
+### 🔁 Fund Transfer
+![Transfer](assets/transfer.png)
 
 ### 📜 Transaction History
-
-(Add Screenshot Here)
+![History](assets/history.png)
 
 ---
 
-## 🚀 Installation
-
-### Clone Repository
+## 🚀 Installation & Run
 
 ```bash
-git clone https://github.com/Kanu-Bansal/SBI-Banking-Management-System.git
-```
-
-### Navigate to Project Directory
-
-```bash
-cd SBI-Banking-Management-System
-```
-
-### Install Dependencies
-
-```bash
+git clone https://github.com/Kanu-Bansal/sbi-banking-app.git
+cd sbi-banking-app
 pip install -r requirements.txt
-```
-
-### Run Application
-
-```bash
 streamlit run app.py
-```
+👩‍💻 Author
 
----
+Kanika Chauhan
 
-## 📈 Key Concepts Used
+GitHub: https://github.com/Kanu-Bansal
 
-* File Handling
-* Data Analysis with Pandas
-* Interactive Dashboard Development
-* Data Visualization with Plotly
-* Streamlit Web Applications
-* Banking Transaction Management
+🎯 Aspiring Data Analyst | Python Developer | Streamlit Enthusiast
 
----
+⭐ Support
 
-## 🎯 Future Enhancements
-
-* 🔒 User Authentication
-* 🗄 Database Integration (MySQL)
-* 📧 Email Notifications
-* 📱 Mobile Responsive Design
-* ☁ Cloud Deployment
-* AI-powered Financial Insights
-
----
-
-## 👩‍💻 Author
-
-### Kanika Chauhan
-
-🔗 GitHub: https://github.com/Kanu-Bansal
-
-💼 Aspiring Data Analyst | Python Developer | Streamlit Enthusiast
-
----
-
-## ⭐ If you found this project useful, please give it a star!
+⭐ Star this repo
+🍴 Fork it
+📢 Share it
