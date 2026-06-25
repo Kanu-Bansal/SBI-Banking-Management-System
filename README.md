@@ -86,19 +86,19 @@ sbi-banking-app/
 ## 📸 Screenshots
 
 ### 🏠 Dashboard
-![Dashboard](assets/Dashboard.png)
+![Dashboard](sbi-banking-app/assets/dashboard.png)
 
 ### 💰 Deposit Page
-![Deposit](assets/Deposit.png)
+![Deposit](sbi-banking-app/assets/deposit.png)
 
 ### 💸 Withdraw Page
-![Withdraw](assets/Withdraw.png)
+![Withdraw](sbi-banking-app/assets/withdraw.png)
 
 ### 🔁 Fund Transfer
-![Transfer](assets/Transfer.png)
+![Transfer](sbi-banking-app/assets/transfer.png)
 
 ### 📜 Transaction History
-![History](assets/History.png)
+![History](sbi-banking-app/assets/history.png)
 
 ---
 
